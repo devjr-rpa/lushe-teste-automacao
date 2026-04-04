@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const response = await fetch(WEBHOOK_N8N_URL, {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json"
+                    "Content-Type": "application/json",
                     "ngrok-skip-browser-warning": "true"
                 },
                 body: JSON.stringify(payload)
