@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         // Substitua esta URL pelo link de produção (Production URL) do seu Webhook no n8n
-        const WEBHOOK_N8N_URL = "https://beth-superrenal-unmasculinely.ngrok-free.dev/webhook-test/913039c5-123b-4c2d-a7d8-78a4b7d22e6e"; 
+        const WEBHOOK_N8N_URL = "https://beth-superrenal-unmasculinely.ngrok-free.dev/webhook/913039c5-123b-4c2d-a7d8-78a4b7d22e6e"; 
 
         try {
             // 4. Dispara o POST para a sua automação (n8n)
